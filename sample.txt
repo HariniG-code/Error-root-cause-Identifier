@@ -1,0 +1,74 @@
+================ DATABASE ERRORS ================
+
+[ERROR] Database connection timeout occurred.
+SQL server not responding.
+Query execution failed due to locked tables.
+
+[ERROR] SQL query failed.
+Table users is locked.
+Database server overloaded.
+
+[CRITICAL] Database service stopped unexpectedly.
+Unable to establish new connections.
+Transaction rollback initiated.
+
+
+================ NETWORK ERRORS ================
+
+[ERROR] Network timeout detected.
+Connection refused by remote host.
+Packet loss observed.
+
+[WARNING] Host unreachable.
+High latency detected.
+Data transfer failed.
+
+[ERROR] Network connection failed.
+Unable to reach external API server.
+Request timed out.
+
+
+================ MEMORY ERRORS ================
+
+[WARNING] JVM Heap memory usage is above 95%.
+Out of memory exception occurred.
+Garbage collection failed.
+
+[CRITICAL] RAM usage exceeded safe limits.
+Memory allocation failed.
+Application crashed due to memory overflow.
+
+[ERROR] Garbage collection failed.
+Heap space exhausted.
+System running out of memory.
+
+
+================ DISK ERRORS ================
+
+[CRITICAL] Disk I/O error detected.
+Storage device not accessible.
+Read/write operation failed.
+
+[ERROR] Disk storage full.
+Unable to write log files.
+File system error occurred.
+
+[WARNING] File system corruption detected.
+Disk read failure.
+Backup operation failed.
+
+
+================ CONFIGURATION ERRORS ================
+
+[INFO] Configuration file missing.
+Invalid environment variables detected.
+Service started with default settings.
+
+[ERROR] Invalid configuration parameters.
+Environment variables not set properly.
+System initialization failed.
+
+[WARNING] Configuration mismatch detected.
+Using fallback settings.
+Restart required.
+
